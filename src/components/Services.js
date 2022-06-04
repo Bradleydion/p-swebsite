@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter, Link } from "react-router-dom";
+import Card from "@mui/material/Card";
 
 export default function Services() {
   return (
@@ -46,12 +48,18 @@ export default function Services() {
           Sicard professional and schedule an appointment.
         </p>
       </section>
-      <section className="service"></section>
+      <section className="service">
+        <Card>
+          <Link to="/Service">Service</Link>
+        </Card>
+      </section>
       {/* think box with link in it the same size as the cards above */}
-      <section className="safety"></section>
+      <section className="safety">
+        <Card>
+          <Link to="/Safety">Safety</Link>
+        </Card>
+      </section>
       {/* think box with link in it the same size as the cards above */}
     </div>
   );
 }
-
-// new branch called content

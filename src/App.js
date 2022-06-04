@@ -6,7 +6,9 @@ import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Careers from "./components/Careers";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import Service from "./components/Service";
+import Safety from "./components/Safety";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />}></Route>
           <Route path="/Services" element={<Services />}></Route>
           <Route path="/Careers" element={<Careers />}></Route>
+          <Route path="/Service" element={<Service />}></Route>
+          <Route path="/Safety" element={<Safety />}></Route>
         </Routes>
         <Footer />
       </Router>

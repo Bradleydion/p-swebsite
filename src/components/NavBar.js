@@ -16,7 +16,9 @@ export default function NavBar() {
         <li>
           <Link to="/ContactUs">Contact Us</Link>
         </li>
-        <li>Services</li>
+        <li>
+          <Link to="/Services">Services</Link>
+        </li>
         <li>Portfolio</li>
       </ul>
       <a>(603)929-0910 clickable</a>
