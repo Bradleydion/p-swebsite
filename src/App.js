@@ -6,7 +6,15 @@ import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Careers from "./components/Careers";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import Service from "./components/Service";
+import Safety from "./components/Safety";
+import Construction from "./components/Construction";
+import SmallProjects from "./components/SmallProjects";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 function App() {
   return (
@@ -19,6 +27,10 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />}></Route>
           <Route path="/Services" element={<Services />}></Route>
           <Route path="/Careers" element={<Careers />}></Route>
+          <Route path="/Service" element={<Service />}></Route>
+          <Route path="/Safety" element={<Safety />}></Route>
+          <Route path="/Construction" element={<Construction />}></Route>
+          <Route path="/SmallProjects" element={<SmallProjects />}></Route>
         </Routes>
         <Footer />
       </Router>
