@@ -1,4 +1,23 @@
-import { Card, CardMedia, CardContent, Typography } from "@mui/material";
+import {
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  Avatar,
+} from "@mui/material";
+import {
+  blue,
+  blueGrey,
+  brown,
+  green,
+  grey,
+  lightBlue,
+  lightGreen,
+  orange,
+  pink,
+  purple,
+  red,
+} from "@mui/material/colors";
 import React from "react";
 
 export default function AboutUs() {
@@ -36,11 +55,10 @@ export default function AboutUs() {
         Company Profiles
       </Typography>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Mark J. Hodson"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: blueGrey[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -65,11 +83,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Philip (Skip) Lynch"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: blue[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -88,11 +105,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Melanie Mosher"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: green[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -112,11 +128,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Bob Pollini"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: orange[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -135,11 +150,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Ken Radford"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: lightGreen[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -160,11 +174,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Marc Dion"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: purple[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -186,11 +199,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Mike Powers"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: lightGreen[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -211,11 +223,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Derek Ham"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: pink[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -237,11 +248,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Mark J. Hodson"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: brown[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -259,11 +269,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Bob Begin"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: grey[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -283,11 +292,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Keith Gillespie"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: red[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -311,11 +319,10 @@ export default function AboutUs() {
         </CardContent>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+        <Avatar
+          alt="Scott Graziano"
+          src="/static/images/avatar/1.jpg"
+          sx={{ bgcolor: green[500], width: 56, height: 56 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
