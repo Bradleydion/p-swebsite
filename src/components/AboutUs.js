@@ -63,7 +63,7 @@ export default function AboutUs() {
           gap: 1,
         }}
       >
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Mark J. Hodson"
             src="/static/images/avatar/1.jpg"
@@ -97,7 +97,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Philip (Skip) Lynch"
             src="/static/images/avatar/1.jpg"
@@ -125,7 +125,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Melanie Mosher"
             src="/static/images/avatar/1.jpg"
@@ -154,7 +154,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Bob Pollini"
             src="/static/images/avatar/1.jpg"
@@ -182,7 +182,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Ken Radford"
             src="/static/images/avatar/1.jpg"
@@ -212,7 +212,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Marc Dion"
             src="/static/images/avatar/1.jpg"
@@ -243,7 +243,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Mike Powers"
             src="/static/images/avatar/1.jpg"
@@ -273,7 +273,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Derek Ham"
             src="/static/images/avatar/1.jpg"
@@ -304,7 +304,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Mark J. Hodson"
             src="/static/images/avatar/1.jpg"
@@ -332,7 +332,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Bob Begin"
             src="/static/images/avatar/1.jpg"
@@ -361,7 +361,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Keith Gillespie"
             src="/static/images/avatar/1.jpg"
@@ -394,7 +394,7 @@ export default function AboutUs() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ my: 5, maxWidth: 345 }}>
+        <Card sx={{ mx: 5, my: 5, maxWidth: 345 }}>
           <Avatar
             alt="Scott Graziano"
             src="/static/images/avatar/1.jpg"
